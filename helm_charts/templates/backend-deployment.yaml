@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: harshit1710/hello-nodejs-hello-world:latest
+        image: harshit1710/nodejs-hello-world:latest
         ports:
         - containerPort: 3000
 ---
