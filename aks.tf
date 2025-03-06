@@ -1,6 +1,6 @@
 module "aks" {
   source  = "Azure/aks/azurerm"
-  version = "9.4.1" # Check for the latest version on the Terraform Registry
+  version = "9.4.1" 
 
   resource_group_name = azurerm_resource_group.aks_rg.name
   location            = azurerm_resource_group.aks_rg.location
